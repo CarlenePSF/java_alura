@@ -22,5 +22,16 @@ public class Main {
         double notaDoFilme = 8.1; // tipo real - ponto flutuante
         System.out.println("Nota dos assinantes: " + notaDoFilme);
 
+        double media = (9.8 + 6.3 + 8.0)/3.;  // media calculada por tres notas
+        System.out.println(media);
+
+        String sinopse = """
+                Filme de aventura com galã dos anos 80.
+                Top-Gun: Maverick lançado em
+                """ + anoDeLancamento;
+        System.out.println(sinopse);
+
+
+
     }
 }
